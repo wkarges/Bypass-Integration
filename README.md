@@ -11,7 +11,6 @@ The API documentation is only accessible to Four Winds Interactive Employees and
 
 Before you can utilize and Bypass APIs you'll need to obtain a few things:
 
-```
 
 * `baseUrl`
 ..* First and foremost you'll need the `BaseURL` to make GET requests to.
@@ -22,5 +21,4 @@ Before you can utilize and Bypass APIs you'll need to obtain a few things:
 * `X-API-KEY`
 ..* You'll need to apply the api key as a header in the GET request(s).  This is unique per property.
 
-```
 
