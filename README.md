@@ -13,12 +13,15 @@ Before you can utilize and Bypass APIs you'll need to obtain a few things:
 
 
 * `baseUrl`
+
 ..* First and foremost you'll need the `BaseURL` to make GET requests to.
 
 * `location_id`
+
 ..* You'll need the Location Id(s) for all the outlets from which you wan to pull menuboard data.
 
 * `X-API-KEY`
+
 ..* You'll need to apply the api key as a header in the GET request(s).  This is unique per property.
 
 
