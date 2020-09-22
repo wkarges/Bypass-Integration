@@ -12,16 +12,10 @@ The API documentation is only accessible to Four Winds Interactive Employees and
 Before you can utilize and Bypass APIs you'll need to obtain a few things:
 
 
-* `baseUrl`
+* `baseUrl` - First and foremost you'll need the `BaseURL` to make GET requests to.
 
-..* First and foremost you'll need the `BaseURL` to make GET requests to.
+* `location_id` - You'll need the Location Id(s) for all the outlets from which you wan to pull menuboard data.
 
-* `location_id`
-
-..* You'll need the Location Id(s) for all the outlets from which you wan to pull menuboard data.
-
-* `X-API-KEY`
-
-..* You'll need to apply the api key as a header in the GET request(s).  This is unique per property.
+* `X-API-KEY` - You'll need to apply the api key as a header in the GET request(s).  This is unique per property.
 
 
