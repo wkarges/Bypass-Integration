@@ -34,8 +34,9 @@ GET <YourBaseURL>/locations/<YourLocation_id>/menuboard
 
 3. Right click on the IF Connection and go to Extended properties, update with your `X-API-KEY` header.
 
-| `X-API-KEY` | `<YourAPIKey>` |
+| Name | Value |
 | --------- | ------------ |
+| `X-API-KEY` | `<YourAPIKey>` |
 
 ![header.png](images/header.png)
 
