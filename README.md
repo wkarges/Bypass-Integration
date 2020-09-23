@@ -30,4 +30,4 @@ GET <YourBaseURL>/locations/<YourLocation_id>/menuboard
 
 2. Update the `baseUrl` and `location_id` and update that string to the Connection URL for your IF Web Adpter.
 
-![connection.png](images/connection.png)
+![connection.png](Images/connection.png)
