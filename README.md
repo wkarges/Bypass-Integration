@@ -28,13 +28,23 @@ All of this information should be obtained from the Bypass representative for yo
 GET <YourBaseURL>/locations/<YourLocation_id>/menuboard
 ```
 
-1. Update the `baseUrl` and `location_id` and update that string to the Connection URL for your IF Web Adpter.
+2. Update the `baseUrl` and `location_id` and update that string to the Connection URL for your IF Web Adpter.
 
 ![connection.png](images/connection.png)
 
-1. Right click on the IF Connection and go to Extended properties, update with your `X-API-KEY` header.
+3. Right click on the IF Connection and go to Extended properties, update with your `X-API-KEY` header.
 
-| X-API-KEY | `YourAPIKey` |
+| `X-API-KEY` | `<YourAPIKey>` |
 | --------- | ------------ |
 
 ![header.png](images/header.png)
+
+4. Set your data format to text and submit the request to ensure your integration is working.
+
+5. If you get a successful response you'll then need to apply two actions to the request:
+
+* Convert to XML
+
+* Run Transform
+
+The latter action will allow you to apply a stylesheet to the response to clean up the data.  You can use the [stylesheet](assets/BypassStylesheet.xsl) in this repo.  You can alternatively apply this stylesheet within the Live Data.
