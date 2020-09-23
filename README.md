@@ -28,6 +28,12 @@ All of this information should be obtained from the Bypass representative for yo
 GET <YourBaseURL>/locations/<YourLocation_id>/menuboard
 ```
 
-2. Update the `baseUrl` and `location_id` and update that string to the Connection URL for your IF Web Adpter.
+1. Update the `baseUrl` and `location_id` and update that string to the Connection URL for your IF Web Adpter.
 
-![connection.png](Images/connection.png)
+![connection.png](images/connection.png)
+
+1. Right click on the IF Connection and go to Extended properties, update with your `X-API-KEY` header.
+
+| X-API-KEY | <YourAPIKey> |
+
+![header.png](images/header.png)
