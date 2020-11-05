@@ -32,4 +32,7 @@
 	</xsl:copy>
   </xsl:template>
   
+  <xsl:template match="tax_rates">
+  </xsl:template>
+  
 </xsl:stylesheet>
